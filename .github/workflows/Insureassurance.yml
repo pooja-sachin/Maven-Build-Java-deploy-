@@ -2,9 +2,7 @@ name: Insured Assurance project - pooja
 
 on:
   push:
-    branches:
-      - main
-
+    
 jobs:
   build-test:
     runs-on: ubuntu-latest
