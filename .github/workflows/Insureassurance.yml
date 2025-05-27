@@ -35,7 +35,7 @@ jobs:
 
     - name: invoke jenkins deployment job
       uses: appleboy/jenkins-action@master
-        with:
+       with:
         url: "http://localhost:8080/"
         user: "admin"
         token: ${{ secrets.JENKINS_TOKEN }}
